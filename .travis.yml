@@ -6,4 +6,4 @@ before_install:
   - docker build -t vachara/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run vahcara/docker-react npm run test -- --coverage  
+  - docker run vachara/docker-react npm run test -- --coverage  
